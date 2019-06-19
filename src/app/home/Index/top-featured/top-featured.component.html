@@ -1,3 +1,34 @@
-<p>
-  top-featured works!
-</p>
+<div class="top-feature">
+  <div class="heading">
+    <h1>
+      <span class="main">
+        Find plants around the most famous
+        parks and gardens
+      </span>
+    </h1>
+  </div>
+  <div class="plant" *ngIf="plants">
+    <div class="card" *ngFor="let item of plants">
+     <div class="col-1-of-3">
+      <div class="card-img">
+        <img src="../../../../assets/images/plants/plant-1.svg" alt="plant here">
+      </div>
+      <div class="card-description">
+        <h1 class="name">
+          Hey
+        </h1>
+        <h1 class="location">
+          <span class="text">hey</span>
+          <span class="text">hey 2</span>
+        </h1>
+      </div>
+      <div class="view-more">
+        <h1 class="views">
+          hey
+        </h1>
+        <button class="btn first">Button 1</button>
+      </div>
+     </div>
+    </div>
+  </div>
+</div>
