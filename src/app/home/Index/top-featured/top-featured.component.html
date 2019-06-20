@@ -8,25 +8,30 @@
     </h1>
   </div>
   <div class="plant" *ngIf="plants">
+    <h1 class="featured">
+
+        top featured
+
+    </h1>
     <div class="card" *ngFor="let item of plants">
      <div class="col-1-of-3">
       <div class="card-img">
-        <img src="../../../../assets/images/plants/plant-1.svg" alt="plant here">
+        <img src="assets/images/plants/plant-1.svg" alt="plant here">
       </div>
       <div class="card-description">
         <h1 class="name">
-          Hey
+         {{item.Name}}
         </h1>
         <h1 class="location">
-          <span class="text">hey</span>
-          <span class="text">hey 2</span>
+          <span class="text">Location:{{item.Location}}</span>
+          <span class="text">Season(s):{{item.Seasons}}</span>
         </h1>
       </div>
       <div class="view-more">
         <h1 class="views">
-          hey
+          views: {{item.Views}}
         </h1>
-        <button class="btn first">Button 1</button>
+        <button class="btn first">more...</button>
       </div>
      </div>
     </div>

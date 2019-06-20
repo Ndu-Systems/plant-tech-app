@@ -9,4 +9,6 @@ export class Plant {
   ModifyUserId: string;
   ModifyDate: Date;
   StatusId: number;
+  Location: string;
+  Seasons: string;
 }

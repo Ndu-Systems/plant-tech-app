@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home.component';
 import { IndexComponent, TopFeaturedComponent, BannerComponent } from './Index';
 import { HeaderComponent } from './header';
+import { HomeNavComponent } from './home-nav';
 
 const routes: Routes = [
   {
@@ -21,7 +22,8 @@ export const declarations: Array<any> = [
   IndexComponent,
   HeaderComponent,
   TopFeaturedComponent,
-  BannerComponent
+  BannerComponent,
+  HomeNavComponent
 ];
 @NgModule({
   imports: [RouterModule.forChild(routes)],

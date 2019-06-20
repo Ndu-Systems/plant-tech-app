@@ -1,7 +1,11 @@
 header {
   overflow: hidden;
   background: #2F3542;
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
   .logo {
     float: left;
     font-size: 1.5em;
@@ -11,9 +15,12 @@ header {
     float: right;
     padding: 1rem;
     cursor: pointer;
+    svg {
+      height: 1.5rem;
+    }
   }
 
- 
+
 }
 header a {
     display: block;
@@ -23,4 +30,20 @@ header a {
     line-height: 20px;
     font-weight: 300;
     text-transform: capitalize;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .burger-menu {
+      &.close{
+        svg{
+          height: 1rem;
+        }
+      }
+      svg {
+        height: 1.5rem;
+      }
+    }
+
+
   }

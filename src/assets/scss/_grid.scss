@@ -3,7 +3,10 @@
     grid-template-columns:30% 30% auto;
     grid-gap: 3rem;
     box-sizing: border-box;
-    margin-bottom: 1rem;   
+    margin-bottom: 1rem;
+    @media only screen and (max-width: 600px) {
+      grid-template-columns: 100%;
+    }
   }
 
 .col-2-of-3 {
@@ -11,7 +14,7 @@
     grid-template-columns:40% auto;
     grid-gap: 3rem;
     box-sizing: border-box;
-    margin-bottom: 1rem;   
+    margin-bottom: 1rem;
   }
   .col-1-of-2{
       display: grid;
