@@ -1,0 +1,11 @@
+@import "../../../assets/scss/variables";
+
+.button {
+  text-transform: capitalize;
+  float: left;
+  color: $success-color;
+}
+
+a {
+  text-decoration: none;
+}

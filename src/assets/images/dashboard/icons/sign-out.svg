@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.843" height="20.236" viewBox="0 0 19.843 20.236">
+  <g id="sign-out" transform="translate(-315 -748.764)">
+    <g id="Group_137" data-name="Group 137" transform="translate(315 748.764)" opacity="0.5">
+      <path id="layer2" d="M30,6H42.453V26.236H30Z" transform="translate(-30 -6)" fill="#2f3542"/>
+      <path id="opacity" d="M38.168,32v8.168L30,32Z" transform="translate(-25.72 -21.881)" fill="#2f3542" opacity="0.15"/>
+    </g>
+    <g id="Group_136" data-name="Group 136" transform="translate(319.495 754.213)">
+      <path id="layer1" d="M1.3,31.6a.3.3,0,0,1,0-.6H16.047a.3.3,0,0,1,0,.6Z" transform="translate(-1 -26.631)" fill="#2f3542"/>
+      <path id="layer1-2" data-name="layer1" d="M37.369,29.34a.389.389,0,0,1-.251-.686l4.711-3.983-4.711-3.983a.389.389,0,1,1,.5-.594l5.063,4.281a.389.389,0,0,1,0,.594L37.62,29.248A.389.389,0,0,1,37.369,29.34Z" transform="translate(-27.473 -20)" fill="#2f3542"/>
+    </g>
+  </g>
+</svg>

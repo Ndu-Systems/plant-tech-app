@@ -2,6 +2,8 @@
 @import './variables';
 @import './grid';
 @import './keyframes';
+@import './components/form';
+@import './components/button';
 
 
 * {
@@ -14,4 +16,24 @@
 html,body{
     font-family: 'Montserrat';
     font-size: 100%;
+}
+body::after, body::before,
+input::after,
+input::before,
+select::after,
+select::before,
+textarea::after,
+textarea::before,
+body *::after,
+body *::before {
+  box-sizing: border-box;
+}
+
+.image-vector {
+  margin: 3rem auto;
+}
+
+.construction {
+  padding: 10rem 3rem;
+  padding-bottom: 5rem;
 }

@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { NavigationProcessService } from '../services';
 
 @Component({
   selector: 'app-home',

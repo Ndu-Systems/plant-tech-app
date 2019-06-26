@@ -1,0 +1,33 @@
+.button{
+  // width: 22rem;
+  padding: 1.4rem;
+  text-transform: uppercase;
+  color: $white-clouds-color;
+  font-weight: 500;
+  border: none;
+  background: no-repeat;
+  float: right;
+  text-align: right;
+  @media only screen and (max-width: 600px) {
+    .cta {
+      margin: 5rem auto;
+      .button {
+        text-align: center;
+        color: $white-color;
+        text-transform: capitalize;
+        background: $success-color;
+        box-shadow: -1px 0px 42px -17px rgba(44,222,115,0.3);
+        border-radius: 5px;
+        font-size: 1rem;
+        &.cancel {
+          background: none;
+          color: $dark-color;
+          box-shadow: none;
+        }
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

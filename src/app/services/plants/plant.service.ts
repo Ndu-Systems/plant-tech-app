@@ -1,12 +1,11 @@
-import { Injectable } from "@angular/core";
-import { BehaviorSubject, Observable } from "rxjs";
-import { Plant } from "src/app/models";
-import { environment } from "src/environments/environment";
-import { HttpClient } from "@angular/common/http";
-import { map } from "rxjs/operators";
+import { Injectable } from '@angular/core';
+import { BehaviorSubject, Observable } from 'rxjs';
+import { Plant } from 'src/app/models';
+import { environment } from 'src/environments/environment';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
-  providedIn: "root"
+  providedIn: 'root'
 })
 export class PlantService {
   private _plants: BehaviorSubject<Plant[]>;
@@ -31,11 +30,11 @@ export class PlantService {
           this.dataStore.plants = data;
           this._plants.next(Object.assign({}, this.dataStore).plants);
         },
-        error => console.log("could not get all plants.")
+        error => console.log('could not get all plants.')
       );
   }
 
-  // TODO CRUD operations
+
   getPlantById(id: string) {
     this.httpClient
       .get<Plant>(`${this.url}api/plant/get-plants.php?PlantId=${id}`)
@@ -55,7 +54,7 @@ export class PlantService {
           }
           this._plants.next(Object.assign({}, this.dataStore).plants);
         },
-        error => console.log("Could not load plant")
+        error => console.log('Could not load plant')
       );
   }
 

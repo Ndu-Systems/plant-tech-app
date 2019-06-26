@@ -1,7 +1,7 @@
 import { Observable } from 'rxjs';
 import { Component, OnInit } from '@angular/core';
 import { Plant } from 'src/app/models/plant';
-import { PlantService } from 'src/app/services';
+import { PlantService } from 'src/app/services/plants';
 
 @Component({
   selector: 'app-top-featured',

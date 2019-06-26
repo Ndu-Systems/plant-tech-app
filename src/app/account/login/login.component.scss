@@ -1,0 +1,29 @@
+.main-content {
+  padding: 2rem;
+
+  h1 {
+    &.main {
+      text-transform: capitalize;
+      font-size: 2.335rem;
+      font-weight: 900;
+    }
+
+    &.instruction {
+      font-weight: 800;
+      font-size: 1.99rem;
+
+      span {
+        display: block;
+        font-size: 1.1rem;
+        font-weight: 400;
+      }
+    }
+  }
+
+
+  .login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+}

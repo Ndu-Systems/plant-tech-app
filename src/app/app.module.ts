@@ -1,20 +1,20 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http';
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { PlantService } from './services';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
+import { HttpClientModule } from "@angular/common/http";
+import { AppRoutingModule, declarations } from "./app-routing.module";
+import { AppComponent } from "./app.component";
+
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ServicesWrapper } from "./services";
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [PlantService],
+  providers: [...ServicesWrapper],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

@@ -5,6 +5,7 @@ import { IndexComponent, TopFeaturedComponent, BannerComponent } from './Index';
 import { HeaderComponent } from './header';
 import { HomeNavComponent } from './home-nav';
 
+
 const routes: Routes = [
   {
     path: '',
@@ -24,6 +25,7 @@ export const declarations: Array<any> = [
   TopFeaturedComponent,
   BannerComponent,
   HomeNavComponent
+
 ];
 @NgModule({
   imports: [RouterModule.forChild(routes)],
