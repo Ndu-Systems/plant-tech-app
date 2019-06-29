@@ -3,7 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { DashboardComponent } from './dashboard.component';
 import { UnderConstructionComponent } from './under-construction/under-construction.component';
 import { DashboardHomeComponent, DashboardNavComponent } from './dashboard-home';
-import { PlantComponent } from './plant';
+import { BedsComponent } from './beds';
+import { PlantsComponent } from './plants';
 
 const routes: Routes = [{ path: '', component: DashboardComponent,
 children: [
@@ -17,7 +18,8 @@ export const declarations: Array<any> = [
   UnderConstructionComponent,
   DashboardHomeComponent,
   DashboardNavComponent,
-  PlantComponent
+  BedsComponent,
+  PlantsComponent
 ];
 @NgModule({
   imports: [RouterModule.forChild(routes)],

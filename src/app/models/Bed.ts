@@ -8,5 +8,4 @@ export interface Bed {
   ModifyUserId: string;
   ModifyDate: Date;
   StatusId: number;
-
 }

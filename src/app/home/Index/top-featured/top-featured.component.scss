@@ -14,7 +14,7 @@
     h1 {
       .main {
         font-size: 1.7555rem;
-        text-transform: uppercase;
+        text-transform: capitalize;
       }
     }
   }
@@ -76,6 +76,7 @@
       font-weight: 800;
       font-size: 1.55rem;
     }
+
     .card {
       padding: 1rem;
       margin-bottom: 3rem;
@@ -126,11 +127,12 @@
 
     .heading {
       width: 100%;
+      padding: 2rem;
 
       h1 {
         .main {
-          font-size: 1.66rem;
-          font-weight: 900;
+          font-size: 1.222rem;
+          font-weight: 500;
         }
       }
     }
@@ -149,11 +151,17 @@
       .featured {
         margin-left: 1rem;
         font-size: 1.55rem;
-
+        font-weight: 500;
       }
+
       .card {
-        .card-img{
+        .card-img {
           margin: 0;
+        }
+
+        h1 {
+          font-size: 1.5rem;
+          font-weight: 500;
         }
       }
     }

@@ -13,11 +13,14 @@
 }
 
 
-html,body{
-    font-family: 'Montserrat';
-    font-size: 100%;
+html,
+body {
+  font-family: 'Montserrat';
+  font-size: 100%;
 }
-body::after, body::before,
+
+body::after,
+body::before,
 input::after,
 input::before,
 select::after,
@@ -36,4 +39,8 @@ body *::before {
 .construction {
   padding: 10rem 3rem;
   padding-bottom: 5rem;
+}
+
+.container-main {
+  padding: 2rem;
 }
