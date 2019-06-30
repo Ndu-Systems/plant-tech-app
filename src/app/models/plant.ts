@@ -1,5 +1,5 @@
 export class Plant {
-  PlantId: string;
+  PlantId?: string;
   Name: string;
   Description: string;
   Views: number;

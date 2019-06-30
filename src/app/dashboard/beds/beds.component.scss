@@ -59,7 +59,7 @@
 
   .card {
     padding: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
     border-bottom: solid 0.1px $primary-color;
 
     .card-description {
@@ -104,8 +104,9 @@
   .container-main {
     .card {
       .col-1-of-3 {
-        grid-template-columns: 100%;
+        grid-template-columns: 30% 40% auto;
         grid-gap: 0;
+        grid-gap: 0.5rem;
 
         .card-img {
           height: 5rem;
@@ -115,6 +116,7 @@
           float: left;
           margin-bottom: 1rem;
           box-shadow: 0px 0px 5px 1px rgba(87, 87, 87, 0.22);
+
           img {
             height: 5rem;
             width: 5rem;
@@ -125,14 +127,17 @@
           .name {
             font-size: 1rem;
           }
+
           .location {
 
             margin: 1rem;
             margin-left: 0;
+
             h1 {
               font-size: 0.65rem;
               margin-bottom: 1rem;
               font-weight: 600;
+
               .text {
                 font-weight: 400;
               }
@@ -143,11 +148,14 @@
         .view-more {
           .button {
             color: $brown-color;
-            border: solid 2px lighten($gray-color, 20%);;
-            padding: 0.81rem;
+            border: solid 2px lighten($gray-color, 20%);
             border-radius: 10px;
             float: left;
+            font-size: 0.65rem;
 
+            padding: 14px 7px;
+            /* margin: auto; */
+            margin: 1rem -1rem;
           }
         }
       }

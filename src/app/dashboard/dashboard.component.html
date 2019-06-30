@@ -1,4 +1,33 @@
 <app-dashboard-nav></app-dashboard-nav>
 <div class="container">
+  <div class="col-1-of-2">
+    <h1 class="logo">
+      plnt-tch
+    </h1>
+    <div class="user">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+          <defs>
+            <filter id="Ellipse_62" x="0" y="0" width="65" height="65" filterUnits="userSpaceOnUse">
+              <feOffset input="SourceAlpha"/>
+              <feGaussianBlur stdDeviation="3" result="blur"/>
+              <feFlood flood-color="#2f3542"/>
+              <feComposite operator="in" in2="blur"/>
+              <feComposite in="SourceGraphic"/>
+            </filter>
+          </defs>
+          <g id="user" transform="translate(-269 -6)">
+            <g transform="matrix(1, 0, 0, 1, 269, 6)" filter="url(#Ellipse_62)">
+              <circle id="Ellipse_62-2" data-name="Ellipse 62" cx="23.5" cy="23.5" r="23.5" transform="translate(9 9)" fill="#f5f6fa" opacity="0.13"/>
+            </g>
+            <path id="user-solid_1_" data-name="user-solid (1)" d="M9.485,10.84a5.42,5.42,0,1,0-5.42-5.42A5.42,5.42,0,0,0,9.485,10.84ZM13.279,12.2h-.707a7.371,7.371,0,0,1-6.174,0H5.691A5.692,5.692,0,0,0,0,17.886v1.762A2.033,2.033,0,0,0,2.032,21.68h14.9a2.033,2.033,0,0,0,2.032-2.033V17.886A5.692,5.692,0,0,0,13.279,12.2Z" transform="translate(293 28)" fill="#44bd32"/>
+          </g>
+        </svg>
+        <h1 class="caption">
+          hi, {{username}}
+        </h1>
+
+    </div>
+  </div>
+
   <router-outlet></router-outlet>
 </div>
