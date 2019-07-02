@@ -123,8 +123,8 @@
         [disabled]="!rForm.valid"
       /> -->
         <div class="cta col-1-of-2">
-          <a routerLink="../" class="button cancel">Abort</a>
-          <input type="submit" value="Save And Continue" class="button">
+          <a routerLink="../plants" class="button cancel">Abort</a>
+          <input type="submit" value="Save And Continue" class="button"  [disabled]="!rForm.valid">
         </div>
 
       </div>

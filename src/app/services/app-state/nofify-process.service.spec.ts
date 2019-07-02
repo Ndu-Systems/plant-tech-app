@@ -1,16 +1,16 @@
 /* tslint:disable:no-unused-variable */
 
 import { TestBed, async, inject } from '@angular/core/testing';
-import { NofifyProcessService } from './nofify-process.service';
+import { NotifyProcessService } from './nofify-process.service';
 
 describe('Service: NofifyProcess', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [NofifyProcessService]
+      providers: [NotifyProcessService]
     });
   });
 
-  it('should ...', inject([NofifyProcessService], (service: NofifyProcessService) => {
+  it('should ...', inject([NotifyProcessService], (service: NotifyProcessService) => {
     expect(service).toBeTruthy();
   }));
 });

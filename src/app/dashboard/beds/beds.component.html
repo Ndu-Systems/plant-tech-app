@@ -1,31 +1,13 @@
 <div class="container-main">
-  <form class="example" action="/action_page.php">
-    <input type="text" placeholder="Search by plant, flower names or category." name="search">
-    <button type="submit"><i class="fa fa-search"></i></button>
-  </form>
-  <div class="card" *ngFor="let item of beds | async">
-      <div class="col-1-of-3">
-        <div class="card-img">
-          <img src="assets/images/plants/plant-1.svg" alt="bed here">
-        </div>
-        <div class="card-description">
-          <h1 class="name">
-            {{item.Name}}
-          </h1>
-          <div class="location">
-            <h1>
-                Quantity:<span class="text"> {{item.Quantity}}</span>
-            </h1>
-            <h1>
-                Location:<span class="text"> Durban Botanic Gardens</span>
-            </h1>
-         </div>
-        </div>
-        <div class="view-more">
-          <a class="button">
-            view more
-          </a>
-        </div>
-      </div>
+  <div class="heading col-1-of-2">
+    <h1 class="logo">
+      All beds
+    </h1>
+    <div class="cta">
+      <a routerLink="../add-bed" class="button">
+        add a bed
+      </a>
     </div>
+  </div>
+  <app-bed-list></app-bed-list>
 </div>

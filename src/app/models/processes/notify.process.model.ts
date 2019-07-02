@@ -4,7 +4,7 @@ export class NotifyProcessModel {
   url: string;
   UrlTo: string;
 }
-export const notifyHolder: NotifyProcessModel = {
+export const NOTIFY_HOLDER: NotifyProcessModel = {
   ImageTag: "404",
   Message: "page not found, sorry",
   url: "/",

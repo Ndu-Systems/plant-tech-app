@@ -15,6 +15,7 @@ export class PlantsComponent implements OnInit {
     private plantService: PlantService
   ) { }
   ngOnInit() {
+    window.scrollTo(0, 0)
     this.plants = this.plantService.plants;
     this.plantService.getAllPlants();
   }

@@ -6,7 +6,7 @@ import {
   DashboardHomeComponent,
   DashboardNavComponent
 } from "./dashboard-home";
-import { BedsComponent } from "./beds";
+import { BedsComponent, AddBedComponent, BedListComponent, BedPlantListComponent } from "./beds";
 import { PlantsComponent, AddPlantComponent } from "./plants";
 import { NotifyScreenComponent } from "./notify-screen";
 
@@ -30,6 +30,20 @@ const routes: Routes = [
       {
         path: "notify-screen",
         component: NotifyScreenComponent
+      },
+      {
+        path:"beds",
+        component: BedsComponent
+      }
+      ,
+      {
+        path: "add-bed",
+        component: AddBedComponent
+      }
+      ,
+      {
+        path: "bed-plants/:id",
+        component: BedPlantListComponent
       }
     ]
   }
@@ -42,7 +56,10 @@ export const declarations: Array<any> = [
   BedsComponent,
   PlantsComponent,
   AddPlantComponent,
-  NotifyScreenComponent
+  NotifyScreenComponent,
+  AddBedComponent,
+  BedListComponent,
+  BedPlantListComponent
 ];
 @NgModule({
   imports: [RouterModule.forChild(routes)],

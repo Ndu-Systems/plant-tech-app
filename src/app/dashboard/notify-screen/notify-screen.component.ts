@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { NotifyProcessModel } from 'src/app/models';
+import { NotifyProcessService } from 'src/app/services/app-state';
 
 @Component({
   selector: 'app-notify-screen',
@@ -6,10 +8,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./notify-screen.component.scss']
 })
 export class NotifyScreenComponent implements OnInit {
-
-  constructor() { }
+  notifyModel: NotifyProcessModel;
+  constructor(
+    private notifyProcessService: NotifyProcessService
+  ) { }
 
   ngOnInit() {
+    this.notifyModel = this.notifyProcessService.getNotifyProcessState();
+    console.log(this.notifyModel);
   }
 
 }

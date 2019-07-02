@@ -1,5 +1,5 @@
 <div class="main-content">
-  <div class="image" >
+  <div class="image" *ngIf="notifyModel.ImageTag == 'success'">
     <svg xmlns="http://www.w3.org/2000/svg" width="275.606" height="167.66" viewBox="0 0 275.606 167.66">
       <g id="success" transform="translate(-53 -136.903)">
         <path id="Path_298" data-name="Path 298" d="M124.019,775.952c0,4.369-20.487,7.912-45.76,7.912S32.5,780.32,32.5,775.952c0-1.093,1.279-2.132,3.592-3.077,6.736-2.756,22.245-4.715,40.474-4.828q.844-.006,1.694-.006C103.532,768.04,124.019,771.583,124.019,775.952Z" transform="translate(21.997 -479.301)" fill="#3f3d56"/>
@@ -34,12 +34,12 @@
   </div>
   <h1 class="message">
     <span>
-      plant added successfully.
+      {{notifyModel.Message}}
     </span>
   </h1>
   <div class="actions col-1-of-2">
     <a routerLink="../">Go Home</a>
-    <a routerLink="../" class="cta">Go To Plants</a>
+    <a [routerLink]="notifyModel.url" class="cta">{{notifyModel.UrlTo}}</a>
   </div>
 </div>
 

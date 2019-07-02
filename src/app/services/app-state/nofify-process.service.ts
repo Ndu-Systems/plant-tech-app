@@ -1,24 +1,29 @@
 import { Injectable } from "@angular/core";
 import { BehaviorSubject } from "rxjs";
-import { NotifyProcessModel, notifyHolder } from "src/app/models";
+import { NotifyProcessModel, NOTIFY_HOLDER } from "src/app/models";
+import { NOTIFY_Key } from "src/app/shared/config";
 
 @Injectable({
   providedIn: "root"
 })
-export class NofifyProcessService {
-
-  notifyProcess = new BehaviorSubject<NotifyProcessModel>(notifyHolder);
+export class NotifyProcessService {
+  notifyProcess = new BehaviorSubject<NotifyProcessModel>(NOTIFY_HOLDER);
   constructor() {}
 
-   getNotifyProcessState() {
-    return this.notifyProcess.value;
+  getNotifyProcessState() {
+   let notify = this.notifyProcess.value;
+    if(notify === undefined || notify === null){
+      notify = JSON.parse(localStorage.getItem(NOTIFY_Key));
+    }
+    return notify;
   }
 
-  setNotification(notify: NotifyProcessModel){
+  setNotification(notify: NotifyProcessModel) {
     this.notifyProcess.next(notify);
+    localStorage.setItem(NOTIFY_Key, JSON.stringify(notify));
   }
 
-  closeNotification(){
+  closeNotification() {
     this.notifyProcess.next(null);
   }
 }

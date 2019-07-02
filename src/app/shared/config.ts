@@ -27,3 +27,9 @@ export const MESSAGE_NOTIFIER =""
 
 // LINKS
 export const URL_TO = "";
+export const URL_TAG = "";
+
+
+// Processes
+export const SOURCE_Key = "Source";
+export const NOTIFY_Key = "Notify";

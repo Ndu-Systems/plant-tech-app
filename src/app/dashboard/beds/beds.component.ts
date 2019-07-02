@@ -9,12 +9,11 @@ import { Bed } from 'src/app/models';
   styleUrls: ['./beds.component.scss']
 })
 export class BedsComponent implements OnInit {
-  beds: Observable<Bed[]>;
-  constructor(private bedService: BedService) { }
+
 
   ngOnInit() {
-    this.beds = this.bedService.beds;
-    this.bedService.getAllBeds();
+    window.scrollTo(0, 0)
+
   }
 
 }
