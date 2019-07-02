@@ -3,7 +3,7 @@ export class SourceProcessModel {
   SourceUrl: string;
 }
 
-export const sourceHolder: SourceProcessModel  = {
+export const SOURCE_HOLDER: SourceProcessModel  = {
   SourceId: 'NEW',
   SourceUrl: '404'
 }
