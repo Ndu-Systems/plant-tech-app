@@ -154,11 +154,13 @@ body *::before {
 @media only screen and (max-width: 600px) {
 
   .container-main {
+    margin-bottom: 2rem;
 
     .heading {
       .cta {
         a {
           text-decoration: none;
+
           &.button {
             color: $brown-color;
             border: solid 2px lighten($gray-color, 20%);
@@ -184,6 +186,8 @@ body *::before {
     }
 
     .card {
+      padding: 1rem 0;
+
       .col-1-of-3 {
         grid-template-columns: 30% 40% auto;
         grid-gap: 0;
@@ -210,8 +214,6 @@ body *::before {
           }
 
           .location {
-
-            margin: 1rem;
             margin-left: 0;
 
             h1 {
@@ -221,6 +223,7 @@ body *::before {
 
               .text {
                 font-weight: 400;
+                display: block;
               }
             }
           }

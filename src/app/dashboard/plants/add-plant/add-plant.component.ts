@@ -64,7 +64,9 @@ export class AddPlantComponent implements OnInit {
     this.plant.CreateUserId = this.f.CreateUserId.value;
     this.plant.ModifyUserId = this.f.ModifyUserId.value;
     this.plant.StatusId = this.f.StatusId.value;
+
     this.plantService.create(this.plant);
+
     this.notifyModel = new NotifyProcessModel;
     this.notifyModel.ImageTag = SUCCESS;
     this.notifyModel.Message = this.MESSAGE_NOTIFIER;

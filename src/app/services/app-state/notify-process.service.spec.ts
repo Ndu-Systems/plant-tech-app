@@ -1,9 +1,9 @@
 /* tslint:disable:no-unused-variable */
 
 import { TestBed, async, inject } from '@angular/core/testing';
-import { NotifyProcessService } from './nofify-process.service';
+import { NotifyProcessService } from './notify-process.service';
 
-describe('Service: NofifyProcess', () => {
+describe('Service: NotifyProcess', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       providers: [NotifyProcessService]
