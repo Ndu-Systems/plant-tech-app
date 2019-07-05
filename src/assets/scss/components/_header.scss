@@ -1,11 +1,12 @@
 header {
   overflow: hidden;
-  background: #2F3542;
+  background: transparent;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
+
   .logo {
     float: left;
     font-size: 1.5em;
@@ -15,35 +16,87 @@ header {
     float: right;
     padding: 1rem;
     cursor: pointer;
+
     svg {
-      height: 1.5rem;
+      height: 0.8rem;
     }
   }
 
 
 }
+
 header a {
-    display: block;
-    padding: 20px;
-    color: #fff;
-    text-decoration: none;
-    line-height: 20px;
-    font-weight: 300;
-    text-transform: capitalize;
+  display: block;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+  line-height: 20px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+.burger-menu-dark,
+.logo-dark {
+  display: none;
+}
+
+.logo,
+.burger-menu {
+  display: block;
+}
+
+// handles the scrolling part.
+.sticky {
+  background: #fff;
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, .08);
+  position: fixed;
+  top: 0;
+  height: 70px;
+  width: 100%;
+
+  .logo,
+  .burger-menu {
+    display: none;
   }
 
+  .burger-menu-dark,
+  .logo-dark {
+    display: inline;
+  }
 
-  @media only screen and (max-width: 600px) {
-    .burger-menu {
-      &.close{
-        svg{
-          height: 1rem;
-        }
-      }
+  .burger-menu-dark {
+    float: right;
+    cursor: pointer;
+    padding: 1rem;
+
+    svg {
+      height: 0.8rem;
+    }
+  }
+
+  .logo-dark {
+    padding: 1rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .burger-menu {
+    &.close {
       svg {
-        height: 1.5rem;
+        height: 1rem;
       }
     }
 
-
+    svg {
+      height: 1.5rem;
+    }
   }
+
+  .logo {
+    display: none;
+  }
+
+
+}

@@ -1,0 +1,12 @@
+nav {
+  background: #2F3542;
+  background-image: url("../../../assets/images/home/home-nav-bg.png");
+  background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 600px) {
+  nav {
+    background: #2f354259;
+  }
+}

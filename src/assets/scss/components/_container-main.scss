@@ -1,0 +1,110 @@
+
+.container-main {
+  padding: 2rem;
+}
+
+
+.container-main {
+
+  h1.logo {
+    font-size: 1.2rem;
+    padding: 1rem;
+    font-weight: 500;
+  }
+
+  margin-top: 2rem;
+  padding: 0.5rem;
+
+  form.example {
+    padding-bottom: 1rem;
+  }
+
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    border-radius: 2rem 0rem 0rem 2rem;
+    padding-left: 1rem;
+  }
+
+  ::placeholder {
+    color: $primary-color;
+    opacity: .45;
+    /* Firefox */
+    font-size: 0.6555rem;
+    font-weight: 700;
+  }
+
+  .fa-search:before {
+    opacity: 0.3;
+  }
+
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #f1f1f1;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border: 0;
+    color: $primary-color;
+    border-radius: 0rem 2rem 2rem 0rem;
+  }
+
+  form.example button:hover {
+    background: #0b7dda;
+  }
+
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .container-main {
+    margin-bottom: 2rem;
+
+    .heading {
+      .cta {
+        a {
+          text-decoration: none;
+
+          &.button {
+            color: $brown-color;
+            border: solid 2px lighten($gray-color, 20%);
+            font-size: 0.65rem;
+          }
+        }
+      }
+
+      .cta {
+        a {
+          &.button {
+            padding: 0.8rem;
+            color: $white-color;
+            background: $success-color;
+            text-transform: capitalize;
+            border: 0;
+            border-radius: 5px;
+          }
+        }
+      }
+
+
+    }
+
+
+
+  }
+}

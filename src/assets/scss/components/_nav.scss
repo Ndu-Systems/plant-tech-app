@@ -1,6 +1,6 @@
 nav {
   position: absolute;
-  background: #2F3542;
+
   padding: 2em;
   width: 100%;
   height: 100%;
@@ -25,18 +25,19 @@ nav {
     padding: 0;
     text-align: center;
     margin-top: 5rem;
+    float: right;
+    margin-right: 5rem;
     a {
       color: $white-clouds-color;
       text-decoration: none;
-      font-size: 1.8rem;
-      font-weight: 400;
+      font-size: 2rem;
+      font-weight: 800;
       text-transform: capitalize;
-      letter-spacing: 0.5rem;
-      opacity: .2555;
-      &.active {
-        text-shadow: 2px 2px #bdc3c7;
-        opacity: 1;
-      }
+      opacity: 1;
+      // &.active {
+      //   opacity: 1;
+      // }
+      font-style: italic;
     }
 
     span {
@@ -61,15 +62,22 @@ nav {
 
 
 @media only screen and (max-width: 600px) {
+  nav {
+    background: #2f354259;
+  }
+
   nav ul {
     padding-right: 0;
     padding-top: 5rem;
     padding-left: 0;
     display: block;
+    float: right;
+
     a {
-      font-size: 1.333rem;
-      font-weight: 300;
+      font-size: 2rem;
+      font-weight: 700;
     }
+
     li {
       padding-bottom: 2rem;
       width: 100%;
@@ -87,6 +95,7 @@ nav {
 
   }
 }
+
 // animations begin here
 .show-menu {
   animation: slide-menu 1s ease-in forwards;
@@ -115,30 +124,4 @@ nav {
   li:nth-of-type(4) {
     animation: menu-item-animate .6s forwards 1.9s ease-in-out;
   }
-}
-
-
-// animations end here
-
-// animations end here
-
-
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: rgb(42, 42, 42);
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: $gray-color;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: black;
 }
