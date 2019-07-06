@@ -1,18 +1,34 @@
-.dashboard-content {
-  margin-top: 5rem;
 
-  .heading {
+  .dashboard-content {
+    background: $white-color;
+    float: right;
     margin-top: 10rem;
-    margin-bottom: 5rem;
+    width: 85%;
+    height: 100vh;
+    .heading {
+      display: none;
+    }
+  }
+// media queries
 
-    h1 {
-      &.main {
-        font-size: 17px;
-        font-weight: 500;
-        color: $white-color;
+@media only screen and (max-width: 600px) {
+  .dashboard-content {
+    background: transparent;
+    margin-top: 0;
+    width: 100%;
+    .heading {
+      margin-top: 10rem;
+      margin-bottom: 5rem;
+      display: block;
+      h1 {
+        &.main {
+          font-size: 17px;
+          font-weight: 500;
+          color: $white-color;
+        }
+
       }
 
     }
-
   }
 }

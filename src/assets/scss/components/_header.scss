@@ -21,7 +21,9 @@ header {
       height: 0.8rem;
     }
   }
-
+  &.dashboard-header {
+    background: $success-color;
+  }
 
 }
 

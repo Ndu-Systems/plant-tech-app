@@ -1,0 +1,77 @@
+@import '../../../assets/scss/variables';
+
+.logo-dashboard {
+  display: block;
+
+  img {
+    margin-left: 7rem;
+  }
+}
+
+.profile {
+  &.col-1-of-2 {
+    grid-template-columns: 75% auto;
+    grid-gap: 0;
+    .sign-out {
+      display: block;
+      a {
+        font-size: 1.2222rem;
+        font-weight: 600;
+        padding: 0;
+        margin: 2rem auto;
+      }
+    }
+    .user {
+
+      .content {
+        text-align: center;
+        width: 30%;
+        float: right;
+        svg {
+          margin: 0 auto;
+          display: block;
+        }
+        h1 {
+          &.caption {
+            font-size: 0.81rem;
+            text-transform: capitalize;
+            font-weight: 500;
+            color: $white-color;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+
+
+.logo-dashboard-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .logo-dashboard-mobile {
+    display: block;
+  }
+
+  .logo-dashboard {
+    display: none;
+  }
+  .profile {
+    &.col-1-of-2 {
+      .user {
+        .content {
+          width: 50%;
+        }
+      }
+      .sign-out {
+        display: none;
+      }
+    }
+  }
+
+
+}

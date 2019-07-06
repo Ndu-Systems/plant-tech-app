@@ -19,6 +19,7 @@ import {
   PlantListComponent
 } from "./plants";
 import { NotifyScreenComponent } from "./notify-screen";
+import { DashboardHeaderComponent } from "./dashboard-header";
 
 const routes: Routes = [
   {
@@ -69,7 +70,8 @@ export const declarations: Array<any> = [
   BedListComponent,
   BedPlantListComponent,
   StatsComponent,
-  PlantListComponent
+  PlantListComponent,
+  DashboardHeaderComponent
 ];
 @NgModule({
   imports: [RouterModule.forChild(routes)],
