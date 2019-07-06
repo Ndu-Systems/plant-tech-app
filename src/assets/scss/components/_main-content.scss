@@ -80,3 +80,14 @@
     }
   }
 }
+
+
+// media queries
+
+@media only screen and (max-width: 600px) {
+  .main-content {
+    background: $success-color;
+    background: linear-gradient(to bottom, $success-color 0%, $success-color 50%, $success-color 50%, $white-color 50%, $white-color 100%);
+
+  }
+}

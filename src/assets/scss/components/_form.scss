@@ -119,4 +119,42 @@
     // height: 60%;
     // margin-top: 27.6rem;
   }
+  .form-wrapper {
+    box-shadow: none;
+    margin-top: 34rem;
+    height: 50%;
+
+    .form {
+      .form-banner {
+        position: absolute;
+        top: 10rem;
+        left: 5rem;
+        text-align: center;
+
+        img {
+          height: 140.05px;
+          width: 247.54px;
+
+        }
+      }
+
+      .form-title {
+        &.instruct {
+          position: absolute;
+          top: 30rem;
+          color: white;
+        }
+      }
+
+      .text {
+        font-size: 12px;
+        font-weight: 600;
+      }
+
+      .form-body {
+        margin-top: 5rem;
+      }
+    }
+  }
+
 }

@@ -1,0 +1,32 @@
+.stats {
+  justify-content: center;
+  background: $white-color;
+  padding: 1rem;
+  &.col-1-of-2{
+    grid-gap: 1rem;
+  }
+  .card {
+    background: $success-color;
+    color: $white-color;
+    width: 162px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    .card-header {
+      padding: 1rem 0;
+    }
+    .card-body {
+      padding: 1rem 0;
+    }
+    .card-footer {
+      &.col-1-of-2{
+        grid-gap: 1rem;
+        grid-template-columns: 20% auto;
+        text-align: right;
+      }
+      h1.number {
+        font-size: 40px;
+      }
+    }
+  }
+}

@@ -4,10 +4,20 @@ import { DashboardComponent } from "./dashboard.component";
 import { UnderConstructionComponent } from "./under-construction/under-construction.component";
 import {
   DashboardHomeComponent,
-  DashboardNavComponent
+  DashboardNavComponent,
+  StatsComponent
 } from "./dashboard-home";
-import { BedsComponent, AddBedComponent, BedListComponent, BedPlantListComponent } from "./beds";
-import { PlantsComponent, AddPlantComponent } from "./plants";
+import {
+  BedsComponent,
+  AddBedComponent,
+  BedListComponent,
+  BedPlantListComponent
+} from "./beds";
+import {
+  PlantsComponent,
+  AddPlantComponent,
+  PlantListComponent
+} from "./plants";
 import { NotifyScreenComponent } from "./notify-screen";
 
 const routes: Routes = [
@@ -32,15 +42,13 @@ const routes: Routes = [
         component: NotifyScreenComponent
       },
       {
-        path:"beds",
+        path: "beds",
         component: BedsComponent
-      }
-      ,
+      },
       {
         path: "add-bed",
         component: AddBedComponent
-      }
-      ,
+      },
       {
         path: "bed-plants/:id",
         component: BedPlantListComponent
@@ -59,7 +67,9 @@ export const declarations: Array<any> = [
   NotifyScreenComponent,
   AddBedComponent,
   BedListComponent,
-  BedPlantListComponent
+  BedPlantListComponent,
+  StatsComponent,
+  PlantListComponent
 ];
 @NgModule({
   imports: [RouterModule.forChild(routes)],

@@ -1,0 +1,18 @@
+.dashboard-content {
+  margin-top: 5rem;
+
+  .heading {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+
+    h1 {
+      &.main {
+        font-size: 17px;
+        font-weight: 500;
+        color: $white-color;
+      }
+
+    }
+
+  }
+}
