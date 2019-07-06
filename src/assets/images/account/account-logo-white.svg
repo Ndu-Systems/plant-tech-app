@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="266.541" height="161.046" viewBox="0 0 266.541 161.046">
+  <defs>
+    <filter id="Imbali" x="0" y="111.046" width="119" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#f5f6fa" flood-opacity="0.467"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="botanic" x="118.541" y="111.046" width="148" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#f5f6fa" flood-opacity="0.467"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_329" x="83" y="0" width="99.87" height="99.87" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-color="#f5f6fa" flood-opacity="0.29"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_330" x="83" y="5.204" width="99.87" height="99.87" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.157"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="account-logo-white" transform="translate(-55 -117)">
+    <g id="Group_187" data-name="Group 187" transform="translate(-3.5 -30)">
+      <g transform="matrix(1, 0, 0, 1, 58.5, 147)" filter="url(#Imbali)">
+        <text id="Imbali-2" data-name="Imbali" transform="translate(9 142.05)" fill="#fff" font-size="26" font-family="Montserrat-BlackItalic, Montserrat" font-weight="800" font-style="italic"><tspan x="0" y="0">Imbali</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 58.5, 147)" filter="url(#botanic)">
+        <text id="botanic-2" data-name="botanic" transform="translate(127.54 142.05)" fill="#fff" font-size="26" font-family="Montserrat-BlackItalic, Montserrat" font-weight="800" font-style="italic"><tspan x="0" y="0">botanic</tspan></text>
+      </g>
+    </g>
+    <g id="Group_186" data-name="Group 186" transform="translate(-1117.067 -255.068)">
+      <g transform="matrix(1, 0, 0, 1, 1172.07, 372.07)" filter="url(#Path_329)">
+        <path id="Path_329-2" data-name="Path 329" d="M6.5,0A146.547,146.547,0,0,0,31.034,2.461,129.241,129.241,0,0,0,54.638,0a6.5,6.5,0,0,1,6.5,6.5V48.134a6.5,6.5,0,0,1-6.5,6.5s-14.17-1.671-20.941-2-27.193,2-27.193,2a6.5,6.5,0,0,1-6.5-6.5V6.5A6.5,6.5,0,0,1,6.5,0Z" transform="translate(130.64 9) rotate(45)" fill="#f5f6fa"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 1172.07, 372.07)" filter="url(#Path_330)">
+        <path id="Path_330-2" data-name="Path 330" d="M6.5,0A146.547,146.547,0,0,0,31.034,2.461,129.241,129.241,0,0,0,54.638,0a6.5,6.5,0,0,1,6.5,6.5V48.134a6.5,6.5,0,0,1-6.5,6.5s-14.17-1.671-20.941-2-27.193,2-27.193,2a6.5,6.5,0,0,1-6.5-6.5V6.5A6.5,6.5,0,0,1,6.5,0Z" transform="translate(130.63 14.2) rotate(45)" fill="#fff"/>
+      </g>
+      <circle id="Ellipse_64" data-name="Ellipse 64" cx="14.979" cy="14.979" r="14.979" transform="translate(1290.042 412.245)" fill="#44bd32"/>
+      <g id="Orion_cherry" transform="translate(1296.379 416.854)">
+        <path id="layer2" d="M16.283,10.634A.283.283,0,0,1,16,10.354c0-.237-.03-5.841,4.067-9.287a.283.283,0,0,1,.462.173A11.645,11.645,0,0,0,25.137,8.7a.283.283,0,0,1-.331.46A12.252,12.252,0,0,1,20.061,1.83c-3.521,3.3-3.495,8.464-3.495,8.516a.283.283,0,0,1-.279.287Z" transform="translate(-12.316 -1)" fill="#a7c180"/>
+        <path id="opacity" d="M16.283,10.634A.283.283,0,0,1,16,10.354c0-.237-.03-5.841,4.067-9.287a.283.283,0,0,1,.462.173A11.645,11.645,0,0,0,25.137,8.7a.283.283,0,0,1-.331.46A12.252,12.252,0,0,1,20.061,1.83c-3.521,3.3-3.495,8.464-3.495,8.516a.283.283,0,0,1-.279.287Z" transform="translate(-12.316 -1)" fill="#8b4513" opacity="0.37"/>
+        <path id="layer2-2" data-name="layer2" d="M26.25,1.567H22.283a.283.283,0,0,1,0-.567H26.25a.283.283,0,0,1,0,.567Z" transform="translate(-16.617 -1)" fill="#a7c180"/>
+        <circle id="layer1" cx="3.967" cy="3.967" r="3.967" transform="translate(0 9.35)" fill="#f5f6fa"/>
+        <circle id="layer1-2" data-name="layer1" cx="3.967" cy="3.967" r="3.967" transform="translate(8.5 7.65)" fill="#fff"/>
+        <path id="opacity-2" data-name="opacity" d="M3,33.667a3.967,3.967,0,0,0,3.967,3.967V29.7A3.967,3.967,0,0,0,3,33.667Zm8.5-1.7a3.967,3.967,0,0,0,3.967,3.967V28A3.967,3.967,0,0,0,11.5,31.967Z" transform="translate(-3 -20.35)" fill="#21205e" opacity="0.1"/>
+      </g>
+    </g>
+  </g>
+</svg>

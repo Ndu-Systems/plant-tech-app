@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="143.157" height="44.827" viewBox="0 0 143.157 44.827">
+  <defs>
+    <filter id="Path_329" x="45.669" y="0" width="43.224" height="43.223" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#4cd137" flood-opacity="0.188"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_330" x="45.669" y="1.603" width="43.224" height="43.224" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#4cd137" flood-opacity="0.322"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="account-logo" transform="translate(-345 -383)">
+    <g id="Group_172" data-name="Group 172" transform="translate(399.669 392)">
+      <g transform="matrix(1, 0, 0, 1, -54.67, -9)" filter="url(#Path_329)">
+        <path id="Path_329-2" data-name="Path 329" d="M2,0A45.15,45.15,0,0,0,9.561.758,39.818,39.818,0,0,0,16.834,0a2,2,0,0,1,2,2V14.83a2,2,0,0,1-2,2s-4.366-.515-6.452-.617S2,16.834,2,16.834a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" transform="translate(66.57 9) rotate(45)" fill="#44bd32"/>
+      </g>
+      <g id="Group_171" data-name="Group 171" transform="translate(0 1.603)">
+        <g transform="matrix(1, 0, 0, 1, -54.67, -10.6)" filter="url(#Path_330)">
+          <path id="Path_330-2" data-name="Path 330" d="M2,0A45.15,45.15,0,0,0,9.561.758,39.818,39.818,0,0,0,16.834,0a2,2,0,0,1,2,2V14.83a2,2,0,0,1-2,2s-4.366-.515-6.452-.617S2,16.834,2,16.834a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" transform="translate(66.57 10.6) rotate(45)" fill="#4cd137"/>
+        </g>
+        <circle id="Ellipse_64" data-name="Ellipse 64" cx="4.615" cy="4.615" r="4.615" transform="translate(8.003 8.003)" fill="#fff"/>
+        <g id="Orion_cherry" transform="translate(9.955 9.422)">
+          <path id="layer2" d="M16.087,3.968A.087.087,0,0,1,16,3.882a3.963,3.963,0,0,1,1.253-2.861.087.087,0,0,1,.142.053,3.588,3.588,0,0,0,1.42,2.3.087.087,0,0,1-.1.142,3.775,3.775,0,0,1-1.462-2.26A3.911,3.911,0,0,0,16.174,3.88a.087.087,0,0,1-.086.089Z" transform="translate(-14.864 -1.001)" fill="#a7c180"/>
+          <path id="opacity" d="M16.087,3.968A.087.087,0,0,1,16,3.882a3.963,3.963,0,0,1,1.253-2.861.087.087,0,0,1,.142.053,3.588,3.588,0,0,0,1.42,2.3.087.087,0,0,1-.1.142,3.775,3.775,0,0,1-1.462-2.26A3.911,3.911,0,0,0,16.174,3.88a.087.087,0,0,1-.086.089Z" transform="translate(-14.864 -1.001)" fill="#8b4513" opacity="0.37"/>
+          <path id="layer2-2" data-name="layer2" d="M23.309,1.175H22.087a.087.087,0,1,1,0-.175h1.222a.087.087,0,0,1,0,.175Z" transform="translate(-20.341 -1)" fill="#a7c180"/>
+          <circle id="layer1" cx="1.222" cy="1.222" r="1.222" transform="translate(0 2.881)" fill="#4cd137"/>
+          <circle id="layer1-2" data-name="layer1" cx="1.222" cy="1.222" r="1.222" transform="translate(2.619 2.357)" fill="#44bd32"/>
+          <path id="opacity-2" data-name="opacity" d="M3,29.746a1.222,1.222,0,0,0,1.222,1.222V28.524A1.222,1.222,0,0,0,3,29.746Zm2.619-.524a1.222,1.222,0,0,0,1.222,1.222V28A1.222,1.222,0,0,0,5.619,29.222Z" transform="translate(-3 -25.643)" fill="#21205e" opacity="0.1"/>
+        </g>
+      </g>
+    </g>
+    <text id="Imbali" transform="translate(345 409.091)" fill="#2f3542" font-size="12" font-family="Montserrat-BlackItalic, Montserrat" font-weight="800" font-style="italic"><tspan x="0" y="0">Imbali</tspan></text>
+    <text id="botanic" transform="translate(428.157 409.091)" fill="#2f3542" font-size="12" font-family="Montserrat-BlackItalic, Montserrat" font-weight="800" font-style="italic"><tspan x="0" y="0">botanic</tspan></text>
+  </g>
+</svg>

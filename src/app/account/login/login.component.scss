@@ -1,43 +1,80 @@
 @import '../../../assets/scss/variables';
 
-.main-content {
-  padding: 2rem;
 
-  h1 {
-    &.main {
-      text-transform: capitalize;
-      font-size: 2rem;
-      font-weight: 500;
-    }
+.container-main {
+  background-image: url('../../../assets/images/account/login-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 0;
+  background-position-y: -4rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  // align-items: center;
+  padding: 5px;
 
-    &.instruction {
-      font-weight: 500;
-      font-size: 1.5rem;
+  .desktop {
+    display: block;
+  }
 
-      span {
-        display: block;
-        font-size: 0.8rem;
-        font-weight: 400;
-        margin-top: 1rem;
+  .mobile {
+    display: none;
+  }
+}
+
+
+// media queries
+
+@media only screen and (max-width: 600px) {
+  .container-main {
+    padding: 0;
+    background: $success-color;
+    background: linear-gradient(to bottom, $success-color 0%, $success-color 50%, $success-color 50%, $white-color 50%, $white-color 100%);
+
+
+    .form-wrapper {
+      box-shadow: none;
+      margin-top: 34rem;
+      height: 50%;
+
+      .form {
+        .form-banner {
+          position: absolute;
+          top: 10rem;
+          left: 5rem;
+          text-align: center;
+
+          img {
+            height: 140.05px;
+            width: 247.54px;
+
+          }
+        }
+
+        .form-title {
+          &.instruct {
+            position: absolute;
+            top: 30rem;
+            color: white;
+          }
+        }
+
+        .text {
+          font-size: 12px;
+          font-weight: 600;
+        }
+
+        .form-body {
+          margin-top: 5rem;
+        }
       }
     }
-  }
 
-
-  .login-page {
-    width: 360px;
-    padding: 8% 0 0;
-    margin: auto;
-  }
-
-  .cta {
-    a {
-      text-decoration: none;
-      opacity: .4;
+    .desktop {
+      display: none;
     }
   }
 
-  .image-vector {
-    text-align: center;
-  }
 }
